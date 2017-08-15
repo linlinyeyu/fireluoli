@@ -31,6 +31,8 @@ spring:
       content-type: text/html
       # set to false for hot refresh
       cache: false
+    resources:
+      static-locations: classpath:/templates/static/
 
 
 # MyBatis
