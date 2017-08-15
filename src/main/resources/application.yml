@@ -23,6 +23,15 @@ spring:
         encoding.charset: UTF-8
         encoding.enable: true
         encoding.force: true
+    thymeleaf:
+      prefix: classpath:/templates/
+      suffix: .html
+      mode: HTML5
+      encoding: UTF-8
+      content-type: text/html
+      # set to false for hot refresh
+      cache: false
+
 
 # MyBatis
 mybatis:
